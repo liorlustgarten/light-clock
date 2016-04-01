@@ -1,0 +1,26 @@
+{
+  "name": "light-clock",
+  "version": "1.0.0",
+  "description": "Webservice for controlling a Raspberry Pi alarm clock",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "onoff": "^1.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liorlustgarten/light-clock.git"
+  },
+  "author": "Lior Lustgarten",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liorlustgarten/light-clock/issues"
+  },
+  "homepage": "https://github.com/liorlustgarten/light-clock#readme"
+}
